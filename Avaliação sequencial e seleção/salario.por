@@ -29,7 +29,7 @@ programa
 		       
 		     
 		        
-		     	escreva("\nDigite uma opção para prosseguir ")
+		     	escreva("\nDigite uma opção para prosseguir (s) sim para continuar (n) não para finalizar: ")
 		     	leia(continua)
 		     	     
 	      }

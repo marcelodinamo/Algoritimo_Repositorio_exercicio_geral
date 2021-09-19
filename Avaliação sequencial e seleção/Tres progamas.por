@@ -68,14 +68,14 @@ programa
 		     }   
 		     
 		        
-		     	escreva("\nDigite uma opção para prosseguir ")
-		     	leia(continua)
+		     	  escreva("\nDigite uma opção para prosseguir ")
+		     	  leia(continua)
 		     	     
 	      }
 	    enquanto (continua == 's')
-	    escreva ("\nO progama foi finalizado")
+	                escreva ("\nO progama foi finalizado")
 		            pare
-		     caso 2:
+		            caso 2:
 		            escreva("Progama 2: ")
 		            
 	         
@@ -104,17 +104,17 @@ programa
 		       
 		     
 		        
-		     	escreva("\nDigite uma opção para prosseguir ")
-		     	leia(continua)
+		     escreva("\nDigite uma opção para prosseguir (s) sim para continuar (n) não para finalizar: ")
+		     leia(continua)
 		     	     
 	      }
 	    enquanto (continua == 's')
-	    escreva ("\nO progama foi finalizado")
-		            pare
+	          escreva ("\nO progama foi finalizado")
+		     pare
 		     caso 3:
-		            escreva("Progama 3: ")
+		     escreva("Progama 3: ")
 		        
-	         real peso, engorde, emagreca
+	          real peso, engorde, emagreca
 
 	    faca 
 	      {
@@ -128,19 +128,19 @@ programa
 		     
 		     
 		        
-		     	escreva("\nDigite uma opção para prosseguir ")
+		     	escreva("\nDigite uma opção para prosseguir (s) sim para continuar (n) não para finalizar: ")
 		     	leia(continua)
 		     	     
 	      }
-	    enquanto (continua == 's')
-	    escreva ("\nO progama foi finalizado")
-		     caso contrario:
-		            se (prog > 3)
-		            escreva("Opção invalida")
-		     }   
+	      enquanto (continua == 's')
+	               escreva ("\nO progama foi finalizado")
+		          caso contrario:
+		          se (prog > 3)
+		          escreva("Opção invalida")
+		 }   
 		     
 		        
-		     	escreva("\nDigite uma opção para prosseguir ")
+		     	escreva("\nDigite uma opção para prosseguir (s) sim para continuar (n) não para finalizar: ")
 		     	leia(continua)
 		     	     
 	      }
@@ -154,7 +154,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1647; 
+ * @POSICAO-CURSOR = 3496; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

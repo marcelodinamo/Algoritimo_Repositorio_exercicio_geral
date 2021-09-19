@@ -4,51 +4,62 @@ programa
 	funcao inicio()
 	{
 	     caracter continua
-	     inteiro dia
+	     inteiro mes
 
 	    faca 
 	      {
 	          limpa()
-	          escreva ("Digite o dia da semana: ")
-		     leia (dia)
-		     escolha(dia)
+	          escreva ("informe o mês: ")
+		     leia (mes)
+		     escolha(mes)
 		     {
 		     caso 1:
-		            escreva("Domingo")
+		            escreva("Janeiro")
 		            pare
 		     caso 2:
-		            escreva("Segunda")
+		            escreva("Fevereiro")
 		            pare
 		     caso 3:
-		            escreva("Terça")
+		            escreva("Março")
 		            pare 
 		     caso 4:
-		            escreva("Qurta")
+		            escreva("Abril")
 		            pare
 		     caso 5:
-		            escreva("Quinta")
+		            escreva("Maio")
 		            pare
 		     caso 6:
-		            escreva("Sexta")
+		            escreva("Junho")
 		            pare 
 		     caso 7:
-		            escreva("Sabado")
+		            escreva("Julho")
 		            pare 				
+		     caso 8:
+		            escreva("Agosto")
+		            pare 
 		     caso 9:
-		            escreva("O progama sera finalizado!")
-		            pare 	
+		            escreva("Setembro")
+		            pare 
+		     caso 10:
+		            escreva("Outubro")
+		            pare 
+		     caso 11:
+		            escreva("Novembro")
+		            pare
+		     caso 12:
+		            escreva("Dezembro")
+		            pare
+		            			
 		     caso contrario:
 		            escreva("Opção invalida")
 		     }   
-		     se (dia != 9)
-		     {   
-		     	escreva("\nDigite uma opção para prosseguir ")
-		     	leia(dia)
-		     }
-		    
-		     
+		  
+		        
+		     	escreva("\nDigite (s) sim para continuar ou (n) para finalizar: ")
+		     	leia(continua)
+		     	     
 	      }
-	    enquanto (dia != 9)
+	    enquanto (continua == 's')
 	    escreva ("\nO progama foi finalizado")
 	}
 }
@@ -58,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 899; 
+ * @POSICAO-CURSOR = 151; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

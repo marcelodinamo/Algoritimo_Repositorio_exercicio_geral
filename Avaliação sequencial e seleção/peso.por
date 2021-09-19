@@ -18,7 +18,7 @@ programa
 		     
 		     
 		        
-		     	escreva("\nDigite uma opção para prosseguir ")
+		     	escreva("\nDigite uma opção para prosseguir (s) sim para continuar (n) não para finalizar: ")
 		     	leia(continua)
 		     	     
 	      }
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 337; 
+ * @POSICAO-CURSOR = 548; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
