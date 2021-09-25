@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> util
+	inclua biblioteca Util --> util
 	funcao inicio()
 	{
 		inteiro prog
@@ -135,9 +135,18 @@ programa
 		}
 		para(cont = 0; cont < 10; cont ++){
 		    	         vetor_i[cont] = vetor[cont]
-		    			escreva("\n", vetor_i[cont])
-	     }  		
-		
+		    			para(cont2 = cont - 1; cont2 > 0; cont2 --){
+				se(vetor_i[cont2] == vetor[cont] ){
+					vetor_i[cont2] = 0
+				}
+			}
+		}
+         escreva("\nNumeros com repetição = 0\n")
+         para(inteiro x=0; x<10; x++){ 
+         	 
+         }
+	      		
+		   sescreva(vetor_i[cont2],"\n")
 		   escreva("\nContinua a execução do progama? ")
 	        leia (continua)
 		}
@@ -149,7 +158,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 242; 
+ * @POSICAO-CURSOR = 4373; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
